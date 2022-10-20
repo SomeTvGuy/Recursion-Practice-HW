@@ -1,5 +1,18 @@
 package assign5_template;
 
+import java.util.Scanner;
+
+/*
+CIS2168 Data Structures 005
+VSCODE
+Anthony Poole 
+tun48981@temple.edu 
+Assign 5 
+Program name:
+Change ChangeDispenser 
+Program description:
+    Takes in User Input in order to make a stack or queue of employees 
+*/
 public class ChangeDispenser {
 
     //public wrapper
@@ -32,7 +45,11 @@ public class ChangeDispenser {
     public static void main(String[] args) {
 
         //add your code to do the following:
-        
+        //Making a Scanner for user input 
+        Scanner User = new Scanner(System.in);
+        //Variable to store user input, store as double and 
+        int UserMoney= User.nextInt();
+
         //prompt the user to enter the amount in dollars and cents
         //get the amount
         //convert the amount to all cents
